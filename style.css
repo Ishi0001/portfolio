@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #f3dde8;
+    color: #3a2d2d;
+    overflow-x: hidden;
+}
+
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 60px;
+    background-image: url('adobe.png');
+    z-index: 9999;
+   
+}
+
+
+.logo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 37px;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(77, 46, 39);
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    position: relative;
+}
+
+.hero-content h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 70px;
+    color: rgb(77, 46, 39);
+}
+
+.hero-content p {
+    margin-top: 15px;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.hero-image img {
+    width: 550px;
+    border-radius: 60%;
+    object-fit: cover;
+    box-shadow: 0 20px 40px rgba(73, 67, 67, 0.15);
+}
+
+
+.about {
+    padding: 150px 20%;
+}
+
+.about-box {
+    background: white;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.08);
+}
+
+.about-box h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.info-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+.projects {
+    padding: 120px 10%;
+    text-align: center;
+}
+
+.projects h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
+    margin-bottom: 60px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+}
+
+.project-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.4s ease;
+}
+
+.project-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+}
+
+.project-info {
+    padding: 25px;
+}
+
+
+.contact {
+    padding: 120px 10%;
+    text-align: center;
+    background: #f0e6e4;
+    background-image: url('adobe.png');
+}
+
+.contact h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.about {
+    padding: 120px 15%;
+}
+
+.about-box {
+    background: #f7f3f2;
+    padding: 80px;
+    border-radius: 30px;
+    box-shadow: 0 40px 80px rgba(0,0,0,0.08);
+    position: relative;
+}
+
+.script-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.about-section {
+    margin-bottom: 40px;
+}
+
+.about-section h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.about-section p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+    max-width: 700px;
+}
+
+.strength-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.strength-grid span {
+    background-color: #f3dde8;
+    padding: 12px 18px;
+    border-radius: 30px;
+    font-size: 14px;
+    box-shadow: 0 5px 15px #c11fa30d;
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(to right, transparent, #d8c7c7, transparent);
+    margin: 50px 0;
+}
+
+.Rosa {
+    position: absolute;
+    bottom: -480px;
+    right: 27%;
+}
+
+.letter-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.letter {
+    background: #f6f1f2;
+    padding: 60px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.05);
+    font-family: 'Cormorant Garamond', serif;
+    color: #4b2e2e;
+    line-height: 1.8;
+}
+
+.letter-intro {
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.signature {
+    margin-top: 40px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 28px;
+}
+.letter-section {
+    display: flex;
+    justify-content: center;
+    margin-top: -60px; 
+}
+
+.project-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+.vifte {
+    margin-top: -1000px;
+    margin-left: 40px;
+    transform: rotate(20deg);
+}
+
+body {
+    cursor: none;
+  }
+  
+  body {
+    cursor: none;
+  }
