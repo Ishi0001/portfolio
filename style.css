@@ -15,7 +15,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 25px 60px;
-    background-image: url('adobe.png');
+    background-image: url('adobe.webp');
     z-index: 9999;
    
 }
